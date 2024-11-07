@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* With border-box: The padding is included within the specified width, 
+    so the total width remains exactly 200px, with the content area automatically adjusted to fit. */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #d4e157, #00c853);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.gallery-container {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.gallery-container h1 {
+    font-size: 2em;
+    color: #171717;
+    margin-bottom: 10px;
+}
+
+.gallery-container .description {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.gallery-item img {
+    width: 150px;   
+    height: 100px;  
+    /* width: 100%;
+    max-width: 150px; 
+    height: auto; */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery-item p {
+    font-size: 0.85em;
+    color: #555;
+}
