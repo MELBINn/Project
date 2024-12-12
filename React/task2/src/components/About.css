@@ -1,0 +1,42 @@
+
+.custom-card {
+    height:200px;
+    margin:10px;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  
+  .card-title {
+    color: #007bff; /* Blue title */
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.95rem; /* Slightly smaller text */
+    color: #6798c2; /* Subtle gray */
+  }
+  
+  .card-body {
+    padding: 20px; /* Extra padding */
+    background-color: #f8f9fa; /* Light background color */
+  }
+  .centered-list {
+    list-style: disc; /* Ensures bullets are visible */
+    padding: 0; /* Removes default padding from the list */
+    margin: 0 auto; /* Centers the list horizontally */
+    text-align: center; /* Aligns the list text to center */
+  }
+  
+  .centered-list li {
+    display: list-item; /* Ensures each item keeps its bullet */
+    list-style-position: inside; /* Moves the bullets inside */
+  }
+  
+  
