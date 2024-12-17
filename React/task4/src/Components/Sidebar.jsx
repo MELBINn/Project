@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Sidebar.css";
+
 import HIcon from "../images/icons8-home-50.png";
 import Noticon from "../images/icons8-notifications-64.png";
 import Activeicon from "../images/icons8-activities-48.png";
@@ -31,9 +31,9 @@ const Sidebar = () => {
 
         <div className="right flex hidden sm:block">
           <h1>
-            <a href="/">
+            {/* <a href="/">
               <img className="logo w-7 " src={logo} alt="logo" />
-            </a>
+            </a> */}
           </h1>
           <h1 className="ml-2 mr-2 ">melbinsunny46@gmail.com</h1>
         </div>
