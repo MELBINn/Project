@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Styles for the current (active) link */
+a.current {
+    @apply  font-bold text-[18px]  text-white bg-[#1d29ac88] no-underline rounded-md p-2;
+  }
+  
+  /* Styles for the non-current (inactive) link */
+  a.nc {
+    @apply  font-bold text-[18px]  text-black hover:bg-[#1d29ac88] no-underline rounded-md p-2;
+  }
